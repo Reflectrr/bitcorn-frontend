@@ -28,7 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "serve": "serve -s build",
+    "serve": "serve -s build -l 3000",
     "updateData": "cp ../backend/btc.json ./src/"
   },
   "eslintConfig": {
