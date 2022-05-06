@@ -37,12 +37,12 @@ const App = () => {
 };
 
 const filterData = (data) => {
-  data.Open = data.o;
-  data.High = data.h;
-  data.Low = data.l;
-  data.Close = data.c;
-  data.Volume = data.v;
-  data.Date = new Date(data.t);
+  data.open = data.o;
+  data.high = data.h;
+  data.low = data.l;
+  data.close = data.c;
+  data.volume = data.v;
+  data.date = new Date(data.t);
 
   delete data.o;
   delete data.vw;
@@ -51,6 +51,7 @@ const filterData = (data) => {
   delete data.l;
   delete data.t;
   delete data.n;
+  delete data.v;
   return data;
 };
 export default App;

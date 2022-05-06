@@ -19,7 +19,6 @@ const Chart = () => {
       titleTopMargin="10"
       titleBottomMargin="10"
       toolTipType="Default"
-      //subtitle="CME - CME Delayed Price, Currency in USD"
       subtitleAlignment="Left"
       subtitleLeftMargin="25"
       subtitleTopMargin="5"

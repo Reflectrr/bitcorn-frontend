@@ -36,16 +36,16 @@ const DrawerComponent = () => {
             <ListItem
               button
               key="burger-list-button1"
-              onClick={() => onClick("/button1")}
+              onClick={() => onClick("/")}
             >
-              Button 1
+              Home
             </ListItem>
             <ListItem
               button
               key="burger-list-button2"
-              onClick={() => onClick("/ems")}
+              onClick={() => onClick("/intro")}
             >
-              Button 2
+              Intro
             </ListItem>
             <Divider />
           </List>

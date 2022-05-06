@@ -37,16 +37,9 @@ const Navbar = () => {
         <Button
           variant="text"
           className={classes.toolbarButtons}
-          onClick={() => history.push("/button1")}
+          onClick={() => history.push("/intro")}
         >
-          Theory
-        </Button>
-        <Button
-          variant="text"
-          className={classes.toolbarButtons}
-          onClick={() => history.push("/button2")}
-        >
-          Web
+          Intro
         </Button>
       </Hidden>
     </>

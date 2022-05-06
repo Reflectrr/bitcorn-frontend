@@ -12,7 +12,7 @@ const Info = () => {
     <div className={classes.infoBox}>
       {lastDay && (
         <Typography variant="h4" gutterBottom>
-          Price on {lastDay.Date.toDateString()}: ${lastDay.Close}
+          Price on {lastDay.date.toDateString()}: ${lastDay.close}
         </Typography>
       )}
       <Typography variant="h4">
