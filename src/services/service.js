@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://172.31.22.99:5000";
+const baseUrl = "http://ec2-13-57-26-92.us-west-1.compute.amazonaws.com:5000";
 
 export const getPrediction = async () => {
   const response = await axios.get(`${baseUrl}/prediction`);
